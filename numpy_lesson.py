@@ -8,3 +8,5 @@ np.random.seed(101)
 
 df = DataFrame(randn(5, 4),["A","B","C","D","E"],["W","X","Y","Z"] )
 print(df)
+pick =  df["A"]["B"]
+print(pick)
