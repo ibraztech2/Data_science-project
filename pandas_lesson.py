@@ -6,7 +6,7 @@ from pandas import *
 
 np.random.seed(101)
 
-df = DataFrame(randn(5, 4),["A","B","C","D","E"],["W","X","Y","Z"] )
+df = DataFrame(randn(5, 4), ["A", "B", "C", "D", "E"], ["W", "X", "Y", "Z"])
 # pick = df[["W","X"]]
 df["new"] = df["W"] + df["X"]
 # pick= df.loc(1)
